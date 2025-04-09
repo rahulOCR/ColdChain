@@ -4,7 +4,7 @@
 #include "driver/i2c.h"
 #include "esp_log.h"
 
-static const char *TAG = "I2C_MLX90614";
+// static const char *TAG = "I2C_MLX90614";
 
 esp_err_t i2c_master_init(void) {
     i2c_config_t conf = {

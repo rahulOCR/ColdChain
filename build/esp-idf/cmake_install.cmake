@@ -532,3 +532,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/esp-idf-ssd1306/cmake_install.cmake")
+endif()
+

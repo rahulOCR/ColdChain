@@ -173,6 +173,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/techeagle/ESP_PROJECT/esp-idf/components/spiffs/include"
   "/home/techeagle/ESP_PROJECT/esp-idf/components/wifi_provisioning/include"
   "../main"
+  "../components/esp-idf-ssd1306"
   )
 
 # Targets to which this target links.
@@ -259,6 +260,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/DependInfo.cmake"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/DependInfo.cmake"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/CMakeFiles/__idf_main.dir/DependInfo.cmake"
+  "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/esp-idf-ssd1306/CMakeFiles/__idf_esp-idf-ssd1306.dir/DependInfo.cmake"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/DependInfo.cmake"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/DependInfo.cmake"

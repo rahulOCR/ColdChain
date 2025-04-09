@@ -80,3 +80,4 @@
 /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/spiffs/libspiffs.a
 /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/libmain.a
+/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/esp-idf-ssd1306/libesp-idf-ssd1306.a

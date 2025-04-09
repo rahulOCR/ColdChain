@@ -171,6 +171,33 @@ __idf_main/fast:
 	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
+LCD.obj: LCD.c.obj
+
+.PHONY : LCD.obj
+
+# target to build an object file
+LCD.c.obj:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.obj
+.PHONY : LCD.c.obj
+
+LCD.i: LCD.c.i
+
+.PHONY : LCD.i
+
+# target to preprocess a source file
+LCD.c.i:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.i
+.PHONY : LCD.c.i
+
+LCD.s: LCD.c.s
+
+.PHONY : LCD.s
+
+# target to generate assembly for a file
+LCD.c.s:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.s
+.PHONY : LCD.c.s
+
 MLX90614.obj: MLX90614.c.obj
 
 .PHONY : MLX90614.obj
@@ -225,6 +252,33 @@ TempController.c.s:
 	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/TempController.c.s
 .PHONY : TempController.c.s
 
+actuator.obj: actuator.c.obj
+
+.PHONY : actuator.obj
+
+# target to build an object file
+actuator.c.obj:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.obj
+.PHONY : actuator.c.obj
+
+actuator.i: actuator.c.i
+
+.PHONY : actuator.i
+
+# target to preprocess a source file
+actuator.c.i:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.i
+.PHONY : actuator.c.i
+
+actuator.s: actuator.c.s
+
+.PHONY : actuator.s
+
+# target to generate assembly for a file
+actuator.c.s:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.s
+.PHONY : actuator.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -238,12 +292,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... __idf_main"
+	@echo "... LCD.obj"
+	@echo "... LCD.i"
+	@echo "... LCD.s"
 	@echo "... MLX90614.obj"
 	@echo "... MLX90614.i"
 	@echo "... MLX90614.s"
 	@echo "... TempController.obj"
 	@echo "... TempController.i"
 	@echo "... TempController.s"
+	@echo "... actuator.obj"
+	@echo "... actuator.i"
+	@echo "... actuator.s"
 .PHONY : help
 
 

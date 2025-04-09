@@ -165,6 +165,7 @@ TempController.elf: esp-idf/perfmon/libperfmon.a
 TempController.elf: esp-idf/spiffs/libspiffs.a
 TempController.elf: esp-idf/wifi_provisioning/libwifi_provisioning.a
 TempController.elf: esp-idf/main/libmain.a
+TempController.elf: esp-idf/esp-idf-ssd1306/libesp-idf-ssd1306.a
 TempController.elf: esp-idf/app_trace/libapp_trace.a
 TempController.elf: esp-idf/app_trace/libapp_trace.a
 TempController.elf: esp-idf/cmock/libcmock.a

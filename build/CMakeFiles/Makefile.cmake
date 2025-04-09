@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "../.git/HEAD"
+  "../.git/refs/heads/master"
   "../CMakeLists.txt"
   "CMakeFiles/3.16.3/CMakeASMCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
@@ -25,6 +27,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "flash_args"
   "flash_args.in"
   "ldgen_libraries.in"
+  "../components/esp-idf-ssd1306/CMakeLists.txt"
   "../main/CMakeLists.txt"
   "../sdkconfig"
   "/home/techeagle/ESP_PROJECT/esp-idf/.git/HEAD"
@@ -343,6 +346,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.16.3/CMakeASMCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/git-data/HEAD"
+  "CMakeFiles/git-data/grabRef.cmake"
+  "CMakeFiles/git-data/head-ref"
   "config.env"
   "bootloader-prefix/tmp/bootloader-cfgcmd.txt"
   "flash_args.in"
@@ -463,6 +469,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "esp-idf/usb/CMakeFiles/CMakeDirectoryInformation.cmake"
   "esp-idf/wifi_provisioning/CMakeFiles/CMakeDirectoryInformation.cmake"
   "esp-idf/main/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "esp-idf/esp-idf-ssd1306/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -596,4 +603,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/DependInfo.cmake"
   "esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/DependInfo.cmake"
   "esp-idf/main/CMakeFiles/__idf_main.dir/DependInfo.cmake"
+  "esp-idf/esp-idf-ssd1306/CMakeFiles/__idf_esp-idf-ssd1306.dir/DependInfo.cmake"
   )

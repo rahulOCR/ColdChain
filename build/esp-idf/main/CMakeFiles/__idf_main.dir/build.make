@@ -83,19 +83,49 @@ esp-idf/main/CMakeFiles/__idf_main.dir/MLX90614.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/MLX90614.c.s"
 	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/techeagle/ESP_PROJECT/Projects/TempController/main/MLX90614.c -o CMakeFiles/__idf_main.dir/MLX90614.c.s
 
+esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.obj: ../main/actuator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/techeagle/ESP_PROJECT/Projects/TempController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.obj"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_main.dir/actuator.c.obj   -c /home/techeagle/ESP_PROJECT/Projects/TempController/main/actuator.c
+
+esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_main.dir/actuator.c.i"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/techeagle/ESP_PROJECT/Projects/TempController/main/actuator.c > CMakeFiles/__idf_main.dir/actuator.c.i
+
+esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/actuator.c.s"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/techeagle/ESP_PROJECT/Projects/TempController/main/actuator.c -o CMakeFiles/__idf_main.dir/actuator.c.s
+
+esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.obj: ../main/LCD.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/techeagle/ESP_PROJECT/Projects/TempController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.obj"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_main.dir/LCD.c.obj   -c /home/techeagle/ESP_PROJECT/Projects/TempController/main/LCD.c
+
+esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_main.dir/LCD.c.i"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/techeagle/ESP_PROJECT/Projects/TempController/main/LCD.c > CMakeFiles/__idf_main.dir/LCD.c.i
+
+esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/LCD.c.s"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/techeagle/ESP_PROJECT/Projects/TempController/main/LCD.c -o CMakeFiles/__idf_main.dir/LCD.c.s
+
 # Object files for target __idf_main
 __idf_main_OBJECTS = \
 "CMakeFiles/__idf_main.dir/TempController.c.obj" \
-"CMakeFiles/__idf_main.dir/MLX90614.c.obj"
+"CMakeFiles/__idf_main.dir/MLX90614.c.obj" \
+"CMakeFiles/__idf_main.dir/actuator.c.obj" \
+"CMakeFiles/__idf_main.dir/LCD.c.obj"
 
 # External object files for target __idf_main
 __idf_main_EXTERNAL_OBJECTS =
 
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/TempController.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/MLX90614.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/build.make
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/techeagle/ESP_PROJECT/Projects/TempController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libmain.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/techeagle/ESP_PROJECT/Projects/TempController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libmain.a"
 	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && $(CMAKE_COMMAND) -P CMakeFiles/__idf_main.dir/cmake_clean_target.cmake
 	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_main.dir/link.txt --verbose=$(VERBOSE)
 

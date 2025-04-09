@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/__idf_main.dir/LCD.c.obj"
   "CMakeFiles/__idf_main.dir/MLX90614.c.obj"
   "CMakeFiles/__idf_main.dir/TempController.c.obj"
+  "CMakeFiles/__idf_main.dir/actuator.c.obj"
   "libmain.a"
   "libmain.pdb"
 )

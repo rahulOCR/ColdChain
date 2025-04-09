@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/techeagle/ESP_PROJECT/Projects/TempController/main/LCD.c" "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.obj"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/main/MLX90614.c" "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/CMakeFiles/__idf_main.dir/MLX90614.c.obj"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/main/TempController.c" "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/CMakeFiles/__idf_main.dir/TempController.c.obj"
+  "/home/techeagle/ESP_PROJECT/Projects/TempController/main/actuator.c" "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -180,6 +182,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/techeagle/ESP_PROJECT/esp-idf/components/perfmon/include"
   "/home/techeagle/ESP_PROJECT/esp-idf/components/spiffs/include"
   "/home/techeagle/ESP_PROJECT/esp-idf/components/wifi_provisioning/include"
+  "../components/esp-idf-ssd1306"
   )
 
 # Targets to which this target links.
@@ -265,6 +268,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/DependInfo.cmake"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/DependInfo.cmake"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/DependInfo.cmake"
+  "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/esp-idf-ssd1306/CMakeFiles/__idf_esp-idf-ssd1306.dir/DependInfo.cmake"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/DependInfo.cmake"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/DependInfo.cmake"

@@ -6,6 +6,58 @@
 
 #IncludeRegexTransform: 
 
+../components/esp-idf-ssd1306/ssd1306.h
+stdint.h
+-
+stdbool.h
+-
+sdkconfig.h
+../components/esp-idf-ssd1306/sdkconfig.h
+ssd1306_err.h
+../components/esp-idf-ssd1306/ssd1306_err.h
+
+../components/esp-idf-ssd1306/ssd1306_default_if.h
+
+../components/esp-idf-ssd1306/ssd1306_draw.h
+sdkconfig.h
+../components/esp-idf-ssd1306/sdkconfig.h
+
+../components/esp-idf-ssd1306/ssd1306_err.h
+esp_log.h
+-
+esp_debug_helpers.h
+-
+
+../components/esp-idf-ssd1306/ssd1306_font.h
+stdint.h
+-
+stdbool.h
+-
+
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/LCD.c
+stdio.h
+-
+stdbool.h
+-
+string.h
+-
+time.h
+-
+freertos/FreeRTOS.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/freertos/FreeRTOS.h
+freertos/task.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/freertos/task.h
+ssd1306.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/ssd1306.h
+ssd1306_draw.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/ssd1306_draw.h
+ssd1306_font.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/ssd1306_font.h
+ssd1306_default_if.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/ssd1306_default_if.h
+
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/LCD.h
+
 /home/techeagle/ESP_PROJECT/Projects/TempController/main/MLX90614.c
 MLX90614.h
 /home/techeagle/ESP_PROJECT/Projects/TempController/main/MLX90614.h
@@ -27,8 +79,6 @@ esp_err.h
 /home/techeagle/ESP_PROJECT/Projects/TempController/main/TempController.c
 stdio.h
 -
-MLX90614.h
-/home/techeagle/ESP_PROJECT/Projects/TempController/main/MLX90614.h
 string.h
 -
 freertos/FreeRTOS.h
@@ -39,6 +89,28 @@ esp_log.h
 /home/techeagle/ESP_PROJECT/Projects/TempController/main/esp_log.h
 esp_err.h
 -
+stdbool.h
+-
+MLX90614.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/MLX90614.h
+actuator.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/actuator.h
+LCD.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/LCD.h
+
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/actuator.c
+driver/gpio.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/driver/gpio.h
+esp_log.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/esp_log.h
+esp_err.h
+-
+actuator.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/actuator.h
+
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/actuator.h
+defines.h
+/home/techeagle/ESP_PROJECT/Projects/TempController/main/defines.h
 
 /home/techeagle/ESP_PROJECT/Projects/TempController/main/defines.h
 
@@ -231,6 +303,18 @@ inttypes.h
 -
 soc/reset_reasons.h
 /home/techeagle/ESP_PROJECT/esp-idf/components/esp_rom/include/soc/reset_reasons.h
+
+/home/techeagle/ESP_PROJECT/esp-idf/components/esp_system/include/esp_debug_helpers.h
+stdbool.h
+-
+sdkconfig.h
+/home/techeagle/ESP_PROJECT/esp-idf/components/esp_system/include/sdkconfig.h
+soc/soc.h
+/home/techeagle/ESP_PROJECT/esp-idf/components/esp_system/include/soc/soc.h
+esp_err.h
+/home/techeagle/ESP_PROJECT/esp-idf/components/esp_system/include/esp_err.h
+esp_cpu.h
+/home/techeagle/ESP_PROJECT/esp-idf/components/esp_system/include/esp_cpu.h
 
 /home/techeagle/ESP_PROJECT/esp-idf/components/esp_system/include/esp_private/crosscore_int.h
 sdkconfig.h
@@ -599,6 +683,10 @@ sys/reent.h
 -
 
 /home/techeagle/ESP_PROJECT/esp-idf/components/newlib/platform_include/sys/reent.h
+
+/home/techeagle/ESP_PROJECT/esp-idf/components/newlib/platform_include/time.h
+sys/types.h
+-
 
 /home/techeagle/ESP_PROJECT/esp-idf/components/soc/esp32/include/soc/clk_tree_defs.h
 

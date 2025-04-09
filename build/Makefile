@@ -1833,6 +1833,19 @@ __idf_main/fast:
 	$(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
+#=============================================================================
+# Target rules for targets named __idf_esp-idf-ssd1306
+
+# Build rule for target.
+__idf_esp-idf-ssd1306: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 __idf_esp-idf-ssd1306
+.PHONY : __idf_esp-idf-ssd1306
+
+# fast build rule for target.
+__idf_esp-idf-ssd1306/fast:
+	$(MAKE) -f esp-idf/esp-idf-ssd1306/CMakeFiles/__idf_esp-idf-ssd1306.dir/build.make esp-idf/esp-idf-ssd1306/CMakeFiles/__idf_esp-idf-ssd1306.dir/build
+.PHONY : __idf_esp-idf-ssd1306/fast
+
 project_elf_src_esp32.obj: project_elf_src_esp32.c.obj
 
 .PHONY : project_elf_src_esp32.obj
@@ -2001,6 +2014,7 @@ help:
 	@echo "... __idf_spiffs"
 	@echo "... __idf_wifi_provisioning"
 	@echo "... __idf_main"
+	@echo "... __idf_esp-idf-ssd1306"
 	@echo "... project_elf_src_esp32.obj"
 	@echo "... project_elf_src_esp32.i"
 	@echo "... project_elf_src_esp32.s"
