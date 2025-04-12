@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "TempController",
-    "project_version":    "56b3685-dirty",
+    "project_version":    "0aacec3-dirty",
     "project_path":       "/home/techeagle/ESP_PROJECT/Projects/TempController",
     "idf_path":           "/home/techeagle/ESP_PROJECT/esp-idf",
     "build_dir":          "/home/techeagle/ESP_PROJECT/Projects/TempController/build",
@@ -1180,7 +1180,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/techeagle/ESP_PROJECT/Projects/TempController/main/TempController.c", "/home/techeagle/ESP_PROJECT/Projects/TempController/main/MLX90614.c", "/home/techeagle/ESP_PROJECT/Projects/TempController/main/actuator.c", "/home/techeagle/ESP_PROJECT/Projects/TempController/main/LCD.c" ],
+            "sources": [ "/home/techeagle/ESP_PROJECT/Projects/TempController/main/TempController.c", "/home/techeagle/ESP_PROJECT/Projects/TempController/main/MLX90614.c", "/home/techeagle/ESP_PROJECT/Projects/TempController/main/actuator.c", "/home/techeagle/ESP_PROJECT/Projects/TempController/main/LCD.c", "/home/techeagle/ESP_PROJECT/Projects/TempController/main/storage.c", "/home/techeagle/ESP_PROJECT/Projects/TempController/main/http_server.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

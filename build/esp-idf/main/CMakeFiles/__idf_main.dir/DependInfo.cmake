@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/techeagle/ESP_PROJECT/Projects/TempController/main/MLX90614.c" "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/CMakeFiles/__idf_main.dir/MLX90614.c.obj"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/main/TempController.c" "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/CMakeFiles/__idf_main.dir/TempController.c.obj"
   "/home/techeagle/ESP_PROJECT/Projects/TempController/main/actuator.c" "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.obj"
+  "/home/techeagle/ESP_PROJECT/Projects/TempController/main/http_server.c" "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.obj"
+  "/home/techeagle/ESP_PROJECT/Projects/TempController/main/storage.c" "/home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main/CMakeFiles/__idf_main.dir/storage.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

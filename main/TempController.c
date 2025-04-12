@@ -9,11 +9,20 @@
 #include "MLX90614.h"
 #include "actuator.h"
 #include "LCD.h"
+#include "http_server.h"
 
 static const char *TAG = "MAIN";
 
 void app_main(void)
 {
+    nvs_flash_init();
+    esp_netif_init();
+    esp_event_loop_create_default();
+
+    wifi_init_softap();
+    start_webserver();
+
+
     if ( DefaultBusInit( ) == true ) {
         printf( "Display init successfully...\n" );
     }
@@ -49,11 +58,14 @@ void app_main(void)
             ESP_LOGE(TAG, "Failed to read object temperature");
         }
 
+        set_temp = get_temperature();
+
         snprintf(display_data1, sizeof(display_data1), "AmbientTemp: %.2f °C", amb_temp);
 
         snprintf(display_data2, sizeof(display_data2), "Object Temp: %.2f °C", ob_temp);
         
         snprintf(display_data3, sizeof(display_data3), "Set Temp: %.2f °C", set_temp);
+
         screen_print(display_data1, display_data2, display_data3);
 
         control_actuator(ob_temp, set_temp);

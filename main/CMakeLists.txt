@@ -1,4 +1,4 @@
-idf_component_register(SRCS TempController.c MLX90614.c actuator.c LCD.c
+idf_component_register(SRCS TempController.c MLX90614.c actuator.c LCD.c storage.c http_server.c
                     INCLUDE_DIRS ".")
 
 # idf_component_register(SRCS test.c

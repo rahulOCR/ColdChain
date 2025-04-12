@@ -279,6 +279,60 @@ actuator.c.s:
 	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.s
 .PHONY : actuator.c.s
 
+http_server.obj: http_server.c.obj
+
+.PHONY : http_server.obj
+
+# target to build an object file
+http_server.c.obj:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.obj
+.PHONY : http_server.c.obj
+
+http_server.i: http_server.c.i
+
+.PHONY : http_server.i
+
+# target to preprocess a source file
+http_server.c.i:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.i
+.PHONY : http_server.c.i
+
+http_server.s: http_server.c.s
+
+.PHONY : http_server.s
+
+# target to generate assembly for a file
+http_server.c.s:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.s
+.PHONY : http_server.c.s
+
+storage.obj: storage.c.obj
+
+.PHONY : storage.obj
+
+# target to build an object file
+storage.c.obj:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/storage.c.obj
+.PHONY : storage.c.obj
+
+storage.i: storage.c.i
+
+.PHONY : storage.i
+
+# target to preprocess a source file
+storage.c.i:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/storage.c.i
+.PHONY : storage.c.i
+
+storage.s: storage.c.s
+
+.PHONY : storage.s
+
+# target to generate assembly for a file
+storage.c.s:
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build && $(MAKE) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/storage.c.s
+.PHONY : storage.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -304,6 +358,12 @@ help:
 	@echo "... actuator.obj"
 	@echo "... actuator.i"
 	@echo "... actuator.s"
+	@echo "... http_server.obj"
+	@echo "... http_server.i"
+	@echo "... http_server.s"
+	@echo "... storage.obj"
+	@echo "... storage.i"
+	@echo "... storage.s"
 .PHONY : help
 
 

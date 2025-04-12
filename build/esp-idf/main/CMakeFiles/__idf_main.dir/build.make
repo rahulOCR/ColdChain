@@ -109,12 +109,40 @@ esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/LCD.c.s"
 	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/techeagle/ESP_PROJECT/Projects/TempController/main/LCD.c -o CMakeFiles/__idf_main.dir/LCD.c.s
 
+esp-idf/main/CMakeFiles/__idf_main.dir/storage.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/storage.c.obj: ../main/storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/techeagle/ESP_PROJECT/Projects/TempController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/storage.c.obj"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_main.dir/storage.c.obj   -c /home/techeagle/ESP_PROJECT/Projects/TempController/main/storage.c
+
+esp-idf/main/CMakeFiles/__idf_main.dir/storage.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_main.dir/storage.c.i"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/techeagle/ESP_PROJECT/Projects/TempController/main/storage.c > CMakeFiles/__idf_main.dir/storage.c.i
+
+esp-idf/main/CMakeFiles/__idf_main.dir/storage.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/storage.c.s"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/techeagle/ESP_PROJECT/Projects/TempController/main/storage.c -o CMakeFiles/__idf_main.dir/storage.c.s
+
+esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.obj: esp-idf/main/CMakeFiles/__idf_main.dir/flags.make
+esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.obj: ../main/http_server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/techeagle/ESP_PROJECT/Projects/TempController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.obj"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_main.dir/http_server.c.obj   -c /home/techeagle/ESP_PROJECT/Projects/TempController/main/http_server.c
+
+esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_main.dir/http_server.c.i"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/techeagle/ESP_PROJECT/Projects/TempController/main/http_server.c > CMakeFiles/__idf_main.dir/http_server.c.i
+
+esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_main.dir/http_server.c.s"
+	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && /home/techeagle/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/techeagle/ESP_PROJECT/Projects/TempController/main/http_server.c -o CMakeFiles/__idf_main.dir/http_server.c.s
+
 # Object files for target __idf_main
 __idf_main_OBJECTS = \
 "CMakeFiles/__idf_main.dir/TempController.c.obj" \
 "CMakeFiles/__idf_main.dir/MLX90614.c.obj" \
 "CMakeFiles/__idf_main.dir/actuator.c.obj" \
-"CMakeFiles/__idf_main.dir/LCD.c.obj"
+"CMakeFiles/__idf_main.dir/LCD.c.obj" \
+"CMakeFiles/__idf_main.dir/storage.c.obj" \
+"CMakeFiles/__idf_main.dir/http_server.c.obj"
 
 # External object files for target __idf_main
 __idf_main_EXTERNAL_OBJECTS =
@@ -123,9 +151,11 @@ esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/TempController.c.
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/MLX90614.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/actuator.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/LCD.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/storage.c.obj
+esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.obj
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/build.make
 esp-idf/main/libmain.a: esp-idf/main/CMakeFiles/__idf_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/techeagle/ESP_PROJECT/Projects/TempController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libmain.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/techeagle/ESP_PROJECT/Projects/TempController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libmain.a"
 	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && $(CMAKE_COMMAND) -P CMakeFiles/__idf_main.dir/cmake_clean_target.cmake
 	cd /home/techeagle/ESP_PROJECT/Projects/TempController/build/esp-idf/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/__idf_main.dir/link.txt --verbose=$(VERBOSE)
 
