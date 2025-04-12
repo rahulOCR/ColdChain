@@ -28,5 +28,6 @@ The system continuously monitors temperature and humidity, logs data, and sends 
 - 3.3V Power Supply / Battery
 - Peltier module
 - Fan
+- Relay module
 ---
 
